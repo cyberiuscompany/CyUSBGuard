@@ -81,4 +81,16 @@ pip install -r requirements.txt
 python3 cyusbguard.py
 ```
 
+## ⚙️ 2 Instalación como si fuese paquete profesional
+
+```bash
+git clone https://github.com/cyberiuscompany/CyUSBGuard.git
+cd CyUSBGuard
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install .
+cyusbguard
+```
+
 
