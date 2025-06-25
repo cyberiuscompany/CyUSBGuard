@@ -59,7 +59,7 @@ Diseñada con un enfoque de ciberseguridad para entornos educativos, empresarial
 ├── README.md # Este archivo
 ```
 
-## ⚙️ 1.1 Instalación 🪟 Windows
+## ⚙️ 1.1 Instalación básica con clonado 🪟 Windows
 
 ```bash
 git clone https://github.com/cyberiuscompany/CyUSBGuard.git
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 python cyusbguard.py
 ```
 
-## ⚙️ 1.2 Instalación 🐧 Linux / macOS
+## ⚙️ 1.2 Instalación básica con clonado 🐧 Linux / macOS
 
 ```bash
 git clone https://github.com/cyberiuscompany/CyUSBGuard.git
