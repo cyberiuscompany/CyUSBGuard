@@ -18,6 +18,7 @@ main {
   flex-direction: column;
   gap: 1.5rem;
   align-items: center;
+  padding-bottom: 10%;
 }
 
 /* Contenedor de los pasos en fila */
@@ -100,7 +101,7 @@ input[type="file"] {
   border-radius: 8px;
   background-color: #4f5354;
   color: white;
-  font-size: 1rem;
+  font-size: 0.6rem;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-bottom: 1rem;
@@ -117,4 +118,9 @@ input[type="file"]::file-selector-button {
 input[type="file"]::file-selector-button:hover {
   background-color: #83f1e8;
   color: #000;
+}
+
+footer {
+    display: block;
+    unicode-bidi: isolate;
 }
