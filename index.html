@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Analizador USB</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>🔌 Analizador USB</h1>
+  </header>
+
+  <main>
+    <div id="pasos-container">
+      <div id="step1" class="box" onclick="marcarPaso(1)">
+        <h2>1️⃣ Conectar USB</h2>
+        <p>Conecta tu USB y haz clic aquí cuando esté listo.</p>
+      </div>
+
+      <div id="step2" class="box oculto" onclick="marcarPaso(2)">
+        <h2>2️⃣ Analizar USB</h2>
+        <p><a href="usb_scanner.py" download>Descargar escáner Python</a></p>
+        <p>Haz clic aquí cuando hayas ejecutado el script.</p>
+      </div>
+
+      <div id="step3" class="box oculto">
+        <h2>3️⃣ Subir informe</h2>
+        <input type="file" id="jsonFile" accept=".json">
+        <button onclick="analizarJSON()">Analizar</button>
+      </div>
+    </div>
+
+    <div id="barraCarga" class="barra oculto"><div class="progreso" id="progreso"></div></div>
+    <div id="resultados" class="resultados oculto"></div>
+    
+    <div style="text-align:center; margin-top:1rem;">
+      <button onclick="reiniciarAnalisis()">🔁 Volver a analizar</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <footer>
+  <div class="footer-socials" style="display: flex; flex-direction: row; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 1rem;">
+
+    <!-- GitHub -->
+    <div class="social-item" style="display: flex; align-items: center; gap: 0.5rem;">
+      <i class="fab fa-github" style="font-size: 1.2rem;"></i>
+      <a href="https://github.com/cyberiuscompany" target="_blank" style="padding: 0.4rem 0.8rem; background-color: #333; color: white; border-radius: 5px; text-decoration: none;">
+        GitHub
+      </a>
+    </div>
+
+    <!-- YouTube -->
+    <div class="social-item" style="display: flex; align-items: center; gap: 0.5rem;">
+      <i class="fab fa-youtube" style="font-size: 1.2rem; color: red;"></i>
+      <a href="https://www.youtube.com/@CyberiusCompany" target="_blank" style="padding: 0.4rem 0.8rem; background-color: red; color: white; border-radius: 5px; text-decoration: none;">
+        YouTube
+      </a>
+    </div>
+
+    <!-- PayPal -->
+    <div class="social-item" style="display: flex; align-items: center; gap: 0.5rem;">
+      <i class="fab fa-paypal" style="font-size: 1.2rem; color: #0070ba;"></i>
+      <a href="https://paypal.me/CyberiusCompany" target="_blank" style="padding: 0.4rem 0.8rem; background-color: #0070ba; color: white; border-radius: 5px; text-decoration: none;">
+        PayPal
+      </a>
+    </div>
+
+    <!-- Discord -->
+    <div class="social-item" style="display: flex; align-items: center; gap: 0.5rem;">
+      <i class="fab fa-discord" style="font-size: 1.2rem; color: #5865F2;"></i>
+      <a href="https://disboard.org/server/1299310806617292922"
+        target="_blank"
+        style="padding: 0.4rem 0.8rem; background-color: #5865F2; color: white; border-radius: 5px; text-decoration: none;">
+        Discord
+      </a>
+    </div>
+  </div>
+
+  <div style="text-align: center; font-size: 0.9rem; color: #888;">
+    &copy; 2025 Cyberius Company. Todos los derechos reservados.
+  </div>
+</footer>
+</body>
+</html>

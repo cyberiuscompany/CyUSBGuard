@@ -1,0 +1,120 @@
+body {
+  background-color: #2d3037;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4f5354;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* Contenedor de los pasos en fila */
+#pasos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.box {
+  background-color: #939194;
+  color: #000;
+  padding: 1.5rem;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.box:hover {
+  background-color: #83f1e8;
+  color: #000;
+  transform: scale(1.03);
+}
+
+.barra {
+  width: 60%;
+  height: 20px;
+  background: #939194;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progreso {
+  height: 100%;
+  width: 0%;
+  background: #83f1e8;
+  transition: width 2s;
+}
+
+.resultados {
+  background: #4f5354;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.oculto {
+  display: none;
+}
+
+/* Estilo general de botones */
+button {
+  background-color: #4f5354;
+  color: #fff;
+  border: 2px solid #939194;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #83f1e8;
+  color: #000;
+  border-color: #83f1e8;
+}
+
+/* Estilo para el input file */
+input[type="file"] {
+  padding: 0.6rem;
+  border: 2px solid #939194;
+  border-radius: 8px;
+  background-color: #4f5354;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #4f5354;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #83f1e8;
+  color: #000;
+}
