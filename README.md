@@ -59,17 +59,26 @@ Diseñada con un enfoque de ciberseguridad para entornos educativos, empresarial
 ├── README.md # Este archivo
 ```
 
-## ⚙️ Instalación y ejecución
+## ⚙️ 1.1 Instalación 🪟 Windows
+
 ```bash
-# 1. Crear entorno virtual
+git clone https://github.com/cyberiuscompany/CyUSBGuard.git
+cd CyUSBGuard
 python -m venv venv
-
-# 2. Activarlo (en Windows)
 .\venv\Scripts\activate
-
-# 3. Instalar dependencias
 pip install -r requirements.txt
-
-# 4. Ejecutar la herramienta
 python cyusbguard.py
+```
+
+## ⚙️ 1.2 Instalación 🐧 Linux / macOS
+
+```bash
+git clone https://github.com/cyberiuscompany/CyUSBGuard.git
+cd CyUSBGuard
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 cyusbguard.py
+```
+
 
