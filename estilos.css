@@ -44,7 +44,7 @@ main {
 }
 
 .box:hover {
-  background-color: #020e0d;
+  background-color: #08eedfa1;
   color: #000;
   transform: scale(1.03);
 }
