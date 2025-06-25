@@ -1,6 +1,22 @@
 # CyUSBGuard
 
+![GitHub release downloads](https://img.shields.io/github/downloads/CyberiusCompany/Cyberius-Unzip-Cracker/latest/total)
+![Versión](https://img.shields.io/badge/versión-1.0.0-blue)
+![Sistema](https://img.shields.io/badge/windows-x64-green)
+![Sistema](https://img.shields.io/badge/linux-x64-green)
+![Licencia](https://img.shields.io/badge/licencia-Privada-red)
+![Uso](https://img.shields.io/badge/uso-solo%20legal-important)
+![Python](https://img.shields.io/badge/python-3.7%2B-yellow)
+
 Herramienta de análisis de USBs, con integración mediante API de VirusTotal y funcionamiento en segundo plano.
+
+---
+
+<p align="center">
+  <img src="icono.png" alt="Banner" width="500"/>
+</p
+
+---
 
 ## Descripción
 
