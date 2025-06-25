@@ -226,7 +226,7 @@ def lanzar_app():
         threading.Thread(target=analizar_usb, args=(letra, api_key, progreso, done_callback)).start()
 
     def abrir_web():
-        webbrowser.open("index.html")
+        webbrowser.open("http://127.0.0.1:5500/index.html")
 
     btn_analizar = tk.Button(root, text="Analizar USB", command=lanzar_analisis, bg="#4f5354", fg="white")
     btn_analizar.pack(pady=10)
