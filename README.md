@@ -18,6 +18,45 @@ Herramienta de análisis de USBs, con integración mediante API de VirusTotal y 
 
 ---
 
+## Fotos de Herramienta
+
+<h2 align="center">Menú Principal</h2>
+<p align="center">
+  <img src="Menu-principal.png" alt="Menú Principal" width="500"/>
+</p>
+
+<h2 align="center">Opción Página Web</h2>
+<p align="center">
+  <img src="Opcion-Pagina-Web.png" alt="Opción Página Web" width="500"/>
+</p>
+
+<h2 align="center">Opciones de Segundo Plano</h2>
+<p align="center">
+  <img src="Opciones Segundo Plano.png" alt="Opciones Segundo Plano" width="500"/>
+</p>
+
+<h2 align="center">Programa en Segundo Plano</h2>
+<p align="center">
+  <img src="Programa en Segundo Plano.png" alt="Programa en Segundo Plano" width="500"/>
+</p>
+
+<h2 align="center">Resultado del Análisis Web</h2>
+<p align="center">
+  <img src="Resultado Analisis Web.png" alt="Resultado Análisis Web" width="500"/>
+</p>
+
+<h2 align="center">Resultado del Análisis Local</h2>
+<p align="center">
+  <img src="Resultado de Analisis.png" alt="Resultado de Análisis" width="500"/>
+</p>
+
+<h2 align="center">Resultado Detallado del Análisis Web</h2>
+<p align="center">
+  <img src="Resultado en Web A detalle del analisis.png" alt="Resultado Web Detallado" width="500"/>
+</p>
+
+
+
 ## Descripción
 
 **CyUSBGuard** es una herramienta desarrollada en Python con interfaz gráfica que analiza dispositivos USB conectados al sistema, permitiendo realizar escaneos automáticos y manuales de archivos mediante la API de VirusTotal. 
