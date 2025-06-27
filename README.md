@@ -97,6 +97,18 @@ Diseñada con un enfoque de ciberseguridad para entornos educativos, empresarial
 ├── requirements.txt # Dependencias
 ├── README.md # Este archivo
 ```
+---
+
+## 📄 Documentación adicional
+
+- [🔐 Seguridad](.github/SECURITY.md)
+- [📜 Licencia](LICENSE)
+- [🤝 Código de Conducta](.github/CODE_OF_CONDUCT.md)
+- [📬 Cómo contribuir](.github/CONTRIBUTING.md)
+- [📢 Soporte](.github/SUPPORT.md)
+- [⚠️ Aviso legal](DISCLAIMER.md)
+
+---
 
 ## ⚙️ 1.1 Instalación básica con clonado 🪟 Windows
 
