@@ -27,8 +27,6 @@
 
 USB analysis tool with VirusTotal API integration and background monitoring capabilities.
 
-- DeepWiki: https://deepwiki.com/cyberiuscompany/CyUSBGuard
-
 ---
 
 <p align="center">
