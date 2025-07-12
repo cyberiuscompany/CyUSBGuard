@@ -134,7 +134,7 @@ Built for cybersecurity use in educational, enterprise, or home environments.
 git clone https://github.com/cyberiuscompany/CyUSBGuard.git
 cd CyUSBGuard
 python -m venv venv
-.env\Scriptsctivate
+.\venv\Scripts\activate
 pip install -r requirements.txt
 python cyusbguard.py
 ```
